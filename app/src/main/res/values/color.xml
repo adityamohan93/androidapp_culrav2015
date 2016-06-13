@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="drawer_background">#ff3a3a3a</color>
+    <color name="drawer_list_divider">#afafaf</color>
+    <color name="register_item">#ffff1e91</color>
+    <color name="list_background">#ffffff</color>
+    <color name="list_background_pressed">#f5f5f5</color>
+    <color name="list_divider">#ffffff</color>
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_green_light">#ff99cc00</color>
+    <color name="holo_red_dark">#ffcc0000</color>
+    <color name="holo_gray_light">#33999999</color>
+    <color name="holo_red_light">#ffff4444</color>
+    <color name="actionbar_title_color">@android:color/white</color>
+    <color name="pink_transparent">#aa700d39</color>
+    <color name="green_transparent">#aa375a1f</color>
+    <color name="blue_transparent">#aa293576</color>
+    <color name="red_transparent">#aa7f3907</color>
+    <color name="purple_transparent">#aa432677</color>
+    <color name="holo_red_light_transparent">#aaff4444</color>
+    <color name="contact_color">#6c7a89</color>
+    <color name="nites_color">#90c695</color>
+    <color name="actionbar_bg">#0099CC</color>
+    <color name="white">#ffffff</color>
+    <color name="feed_bg">#d3d6db</color>
+    <color name="holo_gray_cool">#8C92AC</color>0
+    <color name="holo_gray_bright">#33CCCCCC</color>
+    <color name="feed_item_border">#c2c3c8</color>
+
+
+</resources>

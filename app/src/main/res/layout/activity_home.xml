@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mnnit.culrav.home.HomeActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher" />
+
+    <com.mnnit.culrav.custom.CircleLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:innerRadius="@dimen/size">
+
+        <ImageView
+            android:id="@+id/gallery"
+            android:layout_width="@dimen/size"
+            android:layout_height="@dimen/size" />
+
+        <ImageView
+            android:id="@+id/contact"
+            android:layout_width="@dimen/size"
+            android:layout_height="@dimen/size"
+            android:src="@drawable/contact_ico" />
+
+        <ImageView
+            android:id="@+id/stream"
+            android:layout_width="@dimen/size"
+            android:layout_height="@dimen/size"
+            android:src="@drawable/star" />
+
+        <ImageView
+            android:id="@+id/events"
+            android:layout_width="@dimen/size"
+            android:layout_height="@dimen/size"
+            android:src="@drawable/events_ico1" />
+
+        <ImageView
+            android:id="@+id/schedule"
+            android:layout_width="@dimen/size"
+            android:layout_height="@dimen/size"
+            android:src="@drawable/schedule_ico" />
+
+        <ImageView
+            android:id="@+id/nites"
+            android:layout_width="@dimen/size"
+            android:layout_height="@dimen/size" />
+    </com.mnnit.culrav.custom.CircleLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="32dp"
+        android:text="Culrav 2015"
+        android:id="@+id/nameBar"
+        android:layout_below="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp" />
+
+</RelativeLayout>
